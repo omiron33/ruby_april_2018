@@ -1,10 +1,10 @@
-def selectionsort(arr)
-  sortedarr = []
+def selectionSort(arr)
+  sortedArr = []
   arr.size.times do
    puts arr.min
-   sortedarr << arr.slice!(arr.index(arr.min))
+   sortedArr << arr.slice!(arr.index(arr.min))
   end
-  return sortedarr
+  return sortedArr
 end
 
-selectionsort([25,8,12,43,96,103,4])
+selectionSort([25,8,12,43,96,103,4])
